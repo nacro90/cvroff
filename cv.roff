@@ -1,0 +1,235 @@
+.nr HM 0
+.nr FM 0
+.nr PO -0.6i
+.nr LL +1.4i
+
+.\" Name macro
+.de NAME
+.  TL
+.  ps 22
+.  ft R
+\\$*
+.  ps
+..
+
+.\" Personal contact information line
+.de INFOLINE
+.ps 10
+.tl ''\\$^''
+.ps
+..
+
+.\" Section header
+.de SECTION
+.  SH
+.  ps 12
+.  R
+.  UL \\$^
+.  ps
+..
+.\" Explanation paragraph
+.de EXPLAIN
+.  R
+.  IP · 2.6
+.  ps 11
+..
+
+.de REFLINK
+.ps 9
+.CW \\$1
+.ps
+..
+
+.\"----------------------------------------------
+
+.NAME "Orcan Tiryakioglu"
+.
+.sp .08i
+.
+.INFOLINE Maltepe\  \(br\  Istanbul\  \(br\  Turkey
+.INFOLINE +90 530 310 4194\  \(br\  orcan.tiryakioglu@gmail.com\  \(br\  github:nacro90
+.
+.sp -2P
+.SECTION SKILLS
+.
+.sp 5p
+.in +1.2P
+.mk
+.B "Programming Languages"
+.br
+.rt
+.rj 1
+Java\ \ \[br]\ \ Python\ \ \[br]\ \ Bash\ \ \[br]\ \ SQL\ \ \[br]\ \ Lua\ \ \[br]\ \ C\ \ \[br]\ \ HTML\ \ \[br]\ \ JavaScript
+.sp 1P
+.mk
+.B "Tools & Frameworks"
+.br
+.rt
+.rj
+Spring\ \ \[br]\ \ Mongo\ \ \[br]\ \ Docker\ \ \[br]\ \ Hadoop\ \ \[br]\ \ Keras\ \ \[br]\ \ Android\ \ \[br]\ \ Angular\ \ \[br]\ \ Git
+.sp 1P
+.mk
+.B Languages
+.br
+.rt
+.rj
+Fluent in English\ \ \[br]\ \ Native in Turkish\ \ \[br]\ \ Beginner in German
+.
+.
+.SECTION EDUCATION
+.
+.sp 5p
+.nf
+.ps 11
+.in +1.2P
+.mk
+.B "Yildiz Technical University"
+.sp 1p
+.I "BS, Computer Engineering"
+.rt
+.rj 2
+September 2013\(enAugust 2020
+.I Istanbul, Turkey
+.ps
+.in
+.
+.
+.SECTION "WORK EXPERIENCE"
+.
+.sp 5p
+.nf
+.ps 11
+.in +1.2P
+.mk
+.B "Testinium"
+.sp 1p
+.I "Software Developer"
+.rt
+.rj 2
+.R
+June 2019\(enMay 2020
+.I "Istanbul, Turkey"
+.sp 3p
+.EXPLAIN
+Member of the development team of
+.I "QA Dashboard" ,
+which is a development performance tracking software written in
+.I Java
+with
+.I "Spring Framework" .
+.EXPLAIN
+Researched and developed AI generators using \fIGAN\fP architecture
+to generate fake user data.
+.
+.sp 1P
+.nf
+.ps 11
+.mk
+.B "Yapi Kredi Bank"
+.sp 1p
+.I "Software Developer"
+.rt
+.rj 2
+May 2018\(enSep 2018
+.I Istanbul, Turkey
+.sp 3p
+.EXPLAIN
+Worked on web banking applications made via
+.I "Spring Framework" .
+.EXPLAIN
+Researched and developed a search solution for infrastructure using
+.I "Elastic Search"
+project.
+.
+.sp 1P
+.nf
+.ps 11
+.mk
+.B "FinNET Electronic Publishing Data Communications Co.Ltd."
+.sp 1p
+.I "Software Developer"
+.rt
+.rj 2
+Jul 2017\(enSep 2017
+.I Istanbul, Turkey
+.sp 3p
+.EXPLAIN
+Worked on financial technical analysis tools written in pure
+.I JavaScript .
+.
+.SECTION PROJECTS
+.
+.sp 5p
+.in +1.2P
+.
+.nf
+.ps 11
+.mk
+.B "User Activity Generator"
+.sp 1p
+.REFLINK https://github.com/nacro90/user-activity-generator
+.rt
+.rj
+Apr 2020\(enJul 2020
+.sp 15p
+.EXPLAIN
+Researched and developed different GAN architectures to generate fake user
+movement time series to fool malwares created for mobile phones.
+.EXPLAIN
+.I MlFlow
+and
+.I Keras
+have been used to make the development process easier.
+.
+.sp 1P
+.nf
+.ps 11
+.mk
+.B "Simpla Java Hadoop"
+.sp 1p
+.REFLINK https://www.github.com/nacro90/simpla-java-hadoop
+.rt
+.rj
+Apr 2020\(enJul 2020
+.sp 15p
+.EXPLAIN
+In this project, 5 different statistical method implemented via
+.I MapReduce
+technique using
+.I Docker
+containers and
+.I "Java Hadoop Client" .
+.
+.sp 1P
+.nf
+.ps 11
+.mk
+.B "Alcoholic Detector"
+.sp 1p
+.REFLINK https://github.com/nacro90/AlcoholicDetector
+.rt
+.rj
+Sep 2017
+.sp 15p
+.EXPLAIN
+Created a neural network via
+.I TensorFlow
+that can estimate the alcohol consumption of an
+individual according to his/her social properties.
+.
+.SECTION "EXTRA-CURRICULAR ACTIVITIES"
+.sp 5p
+.in +1.2P
+.
+.nf
+.ps 11
+.mk
+.B "Krav Maga Instructor"
+.br
+.rt
+.rj
+Apr 2016\(enPresent
+.EXPLAIN
+Yildiz Technical University Krav Maga Community Volunteer Instructor
+.EXPLAIN
+IED Hearing Imparied People Association Volunteer Instructor
